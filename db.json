@@ -1,16 +1,66 @@
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
+      "id": 0,
       "title": "First post!",
-      "content" : "My first content!"
+      "content": "My first content!"
     }
   ],
-  "comments" : [
+  "comments": [
     {
       "id": 0,
       "content": "Wow such content!",
       "username": "zero_cool"
+    }
+  ],
+  "necesidades_personalizadas": [
+    {
+      "id": 0,
+      "nombre": "Completitud de ayuda para usuarios",
+      "definicion": "Todas las funcionalidades del sistema deben estar cubiertas por las diferentes formas de ayuda para el usuario.",
+      "proyecto": "0",
+      "atributos": [
+        {
+          "id": 0,
+          "nombre": "Cobertura de demostración",
+          "definicion": "What proportion of tasks has demonstration features for users to recognize the appropriateness?",
+          "subcaracteristica": {
+            "id": 0,
+            "nombre": "Capacidad de reconocer la adecuación",
+            "definicion": "The quality measures for appropriateness recognizability are used to assess the degree to which users can recognize whether a product or system is appropriate for their needs."
+          },
+          "caracteristica": {
+            "id": 0,
+            "nombre": "usabilidad",
+            "definicion": "Usability measures are used to assess the degree to which a product or system can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use"
+          },
+          "modelo_calidad": {
+            "id": 0,
+            "nombre": "ISO/IEC 25010",
+            "definicion": "Modelo de calidad dado por la Familia de normas ISO/IEC 25000"
+          }
+        },
+        {
+          "id": 1,
+          "nombre": "Completitud de la descripcion",
+          "definicion": "What proportion of usage scenarios is described in the product description or user documents?",
+          "subcaracteristica": {
+            "id": 0,
+            "nombre": "Capacidad de reconocer la adecuación",
+            "definicion": "The quality measures for appropriateness recognizability are used to assess the degree to which users can recognize whether a product or system is appropriate for their needs."
+          },
+          "caracteristica": {
+            "id": 0,
+            "nombre": "usabilidad",
+            "definicion": "Usability measures are used to assess the degree to which a product or system can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use"
+          },
+          "modelo_calidad": {
+            "id": 0,
+            "nombre": "ISO/IEC 25010",
+            "definicion": "Modelo de calidad dado por la Familia de normas ISO/IEC 25000"
+          }
+        }
+      ]
     }
   ]
 }
